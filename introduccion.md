@@ -7,3 +7,14 @@ La POO es importante porque facilita la creación de estructuras modulares y esc
 en diferentes partes del programa o incluso en otros proyectos. Es fundamental en el desarrollo de **software empresarial**, **videojuegos**, **aplicaciones móviles** y **sistemas complejos**.
 
 # Fundamentos de POO.
+### **Abstracción**
+La abstracción consiste en representar solo los aspectos esenciales de un objeto sin mostrar detalles innecesarios.
+
+### **Encapsulamiento**
+El encapsulamiento protege los datos de acceso no autorizado y controla cómo se interactúa con ellos.
+
+### **Herencia**
+La herencia permite que una clase (subclase) herede características de otra (superclase), evitando la repetición de código.
+
+### **Polimorfismo**
+El plimorfismo permite que un mismo método funcione de diferentes maneras según el objeto que lo use.
