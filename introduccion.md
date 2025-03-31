@@ -109,6 +109,8 @@ El turno se actualiza con los nuevos datos y Se envían notificaciones con la ac
 - **Precondiciones:** El paciente debe estar registrado en el sistema.
 - **Postcondiciones:** El usuario visualiza el historial del paciente.
 
+# Boceto inicial del diseño de clases
+
 
 
 
