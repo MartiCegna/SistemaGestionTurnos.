@@ -17,4 +17,4 @@ El encapsulamiento protege los datos de acceso no autorizado y controla cómo se
 La herencia permite que una clase (subclase) herede características de otra (superclase), evitando la repetición de código.
 
 ### **Polimorfismo**
-El plimorfismo permite que un mismo método funcione de diferentes maneras según el objeto que lo use.
+El polimorfismo permite que un mismo método funcione de diferentes maneras según el objeto que lo use.
