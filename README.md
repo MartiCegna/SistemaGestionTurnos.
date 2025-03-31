@@ -15,4 +15,4 @@ A través de la Programación Orientada a Objetos (POO), se modelarán clases co
 
 # Diagrama y Diseños.
 
-Dirigirse a la sección de [Anexos.] (https://github.com/MartiCegna/SistemaGestionTurnos./blob/main/anexos.md)
+Dirigirse a la sección de [Anexos.](https://github.com/MartiCegna/SistemaGestionTurnos./blob/main/anexos.md)
