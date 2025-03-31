@@ -37,11 +37,9 @@ La información de pacientes y médicos debe estar protegida y solo accesible pa
 
 # Casos de uso
 1. **Agendar un turno médico**
-   - **Actor(es) involucrado(s):** Recepcionistas, Paciente.
-
-2. **Descripción breve:** Permite registrar un nuevo turno en el sistema según la disponibilidad del médico.
-
-3. **Fujo principal de eventos**
+- **Actor(es) involucrado(s):** Recepcionistas, Paciente.
+- **Descripción breve:** Permite registrar un nuevo turno en el sistema según la disponibilidad del médico.
+- **Fujo principal de eventos**
    -El usuario (recepcionista o paciente) accede al sistema.
    
    -Selecciona la opción "Agendar turno".
@@ -55,11 +53,10 @@ La información de pacientes y médicos debe estar protegida y solo accesible pa
    -Confirma el turno.
    
    -El sistema registra el turno y envía una notificación al paciente y al médico.
-
-5. **Precondiciones:**
+  
+- **Precondiciones:**
 El paciente debe estar registrado en el sistema y debe haber disponibilidad en el horario del médico.
-
-6. **Postcondiciones:**
+- **Postcondiciones:**
 El turno queda resitrado en la agenda y se notifican tanto el paciente como el médico.
    
 
