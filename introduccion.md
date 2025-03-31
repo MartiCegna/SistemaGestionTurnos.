@@ -5,3 +5,5 @@ En POO, los programas se estructuran en torno a **clases** (plantillas para crea
 
 La POO es importante porque facilita la creación de estructuras modulares y escalables, los cambios de una clase no afectan otras partes del código si está bien diseñado, los objetos pueden ser reutilizados
 en diferentes partes del programa o incluso en otros proyectos. Es fundamental en el desarrollo de **software empresarial**, **videojuegos**, **aplicaciones móviles** y **sistemas complejos**.
+
+# Fundamentos de POO.
