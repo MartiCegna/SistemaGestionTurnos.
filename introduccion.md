@@ -7,14 +7,40 @@ La POO es importante porque facilita la creación de estructuras modulares y esc
 en diferentes partes del programa o incluso en otros proyectos. Es fundamental en el desarrollo de **software empresarial**, **videojuegos**, **aplicaciones móviles** y **sistemas complejos**.
 
 # Fundamentos de POO.
-### **Abstracción**
+### **Abstracción
 La abstracción consiste en representar solo los aspectos esenciales de un objeto sin mostrar detalles innecesarios.
 
-### **Encapsulamiento**
+### **Encapsulamiento
 El encapsulamiento protege los datos de acceso no autorizado y controla cómo se interactúa con ellos.
 
-### **Herencia**
+### **Herencia
 La herencia permite que una clase (subclase) herede características de otra (superclase), evitando la repetición de código.
 
-### **Polimorfismo**
+### **Polimorfismo
 El polimorfismo permite que un mismo método funcione de diferentes maneras según el objeto que lo use.
+
+#Requisitos iniciales del sistema
+### **Gestión de turnos médicos
+El sistema debe permitir a los usuarios registrar, modificar y cancelar turno. Cada turno debe incluir fecha, hora, médico asignado, paciente, estado y observaciones. No se debe permitir turnos duplicados para un mismo horario y médico.
+
+### **Registro y gestión de pacientes
+Se debe poder registrar nuevos apcientes con nombre, documento, fecha de nacimiento, contacto y su historial de turnos. El sistema debe permitir la actualización de datos de los pacientes.
+
+### **Regisstro y gestión de profesionales de la Salud
+Se debe registrar a los médicos con nombre, matrícula, especialidad, horario de atención y contacto. El sistema debe validar que los turnos asignados no superen la disponibilidad del profesional.
+
+### **Notificaciones automáticas
+El sistema debe enviar notificaciones por correo electrónico o mensajes de texto cuando un turno sea confirmado, cancelado o modificado. Tanto el paciente como el médico debe recibir la notificación.
+
+### **Control de acceso y seguridad de datos
+La información de pacientes y médicos debe estar protegida y solo accesible para el personal autorizado.
+
+
+
+
+
+
+
+
+
+
