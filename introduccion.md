@@ -40,19 +40,14 @@ La información de pacientes y médicos debe estar protegida y solo accesible pa
 - **Actor(es) involucrado(s):** Recepcionistas, Paciente.
 - **Descripción breve:** Permite registrar un nuevo turno en el sistema según la disponibilidad del médico.
 - **Fujo principal de eventos**
-   -El usuario (recepcionista o paciente) accede al sistema.
-   
-   -Selecciona la opción "Agendar turno".
-   
-   -Ingresa los datos del paciente.
-   
-   -Selecciona la fecha, hora y médico disponible.
-   
-   -Ingresa el motivo del turno y observaciones (opcional).
-   
-   -Confirma el turno.
-   
-   -El sistema registra el turno y envía una notificación al paciente y al médico.
+
+   - El usuario (recepcionista o paciente) accede al sistema.
+   - Selecciona la opción "Agendar turno".
+   - Ingresa los datos del paciente.
+   - Selecciona la fecha, hora y médico disponible. 
+   - Ingresa el motivo del turno y observaciones (opcional).
+   - Confirma el turno.
+   - El sistema registra el turno y envía una notificación al paciente y al médico.
   
 - **Precondiciones:**
 El paciente debe estar registrado en el sistema y debe haber disponibilidad en el horario del médico.
@@ -63,11 +58,12 @@ El turno queda resitrado en la agenda y se notifican tanto el paciente como el m
 - **Actor(es) Involucrado(s):** Recepcionista, Paciente.
 - **Descripción Breve:** Permite cambiar la fecha, hora o médico de un turno previamente agendado.
 - **Flujo Principal de Eventos:**
-  -El usuario accede al sistema y busca el turno a modificar.
-  -Selecciona la opción "Modificar turno".
-  -Cambia la fecha, hora o médico según disponibilidad.
-  -Guarda los cambios.
-  -El sistema actualiza el turno y notifica al paciente y al médico.
+
+  - El usuario accede al sistema y busca el turno a modificar.
+  - Selecciona la opción "Modificar turno".
+  - Cambia la fecha, hora o médico según disponibilidad.
+  - Guarda los cambios.
+  - El sistema actualiza el turno y notifica al paciente y al médico.
 
 - **Precondiciones:** 
 El turno debe estar registrado en el sistema y debe haber disponibilidad en la nueva fecha y hora.
@@ -75,17 +71,49 @@ El turno debe estar registrado en el sistema y debe haber disponibilidad en la n
 El turno se actualiza con los nuevos datos y Se envían notificaciones con la actualización.
 
 3. **Cancelar un turno médico**
-- **Actor(es) Involucrado(s):** Recepcionista, Paciente, Médico
+- **Actor(es) Involucrado(s):** Recepcionista, Paciente, Médico.
 - **Descripción Breve:** Permite eliminar un turno del sistema cuando un paciente o médico lo requiera.
 - **Flujo Principal de Eventos:**
-  -El usuario accede al sistema y busca el turno.
-  -Selecciona la opción "Cancelar turno".
-  -Confirma la cancelación.
-  -El sistema actualiza el estado del turno como "Cancelado".
-  -Se notifica al paciente y al médico.
+
+  - El usuario accede al sistema y busca el turno.
+  - Selecciona la opción "Cancelar turno".
+  - Confirma la cancelación.
+  - El sistema actualiza el estado del turno como "Cancelado".
+  - Se notifica al paciente y al médico.
 
 - **Precondiciones:** El turno debe estar registrado en el sistema.
 - **Postcondiciones:** El turno aparece como "Cancelado" en el historial y Se notifica al paciente y al médico.
+
+4. **Registrar un nuevo paciente**
+- **Actor(es) Involucrado(s):** Recepcionista.
+- **Descripción Breve:** Permite agregar un nuevo paciente a la base de datos del sistema.
+- **Flujo Principal de Eventos:**
+
+  - El recepcionista accede al sistema y selecciona "Registrar Paciente".
+  - Ingresa los datos del paciente (nombre, documento, fecha de nacimiento, contacto).
+  - Guarda la información.
+  - El sistema valida y almacena los datos.
+
+- **Precondiciones:** El paciente no debe estar registrado previamente.
+- **Postcondiciones:** El paciente queda registrado en la base de datos y se puede agendar turnos para el paciente.
+
+5. **Consultar historial de turnos de un paciente**
+- **Actor(es) Involucrado(s):** Recepcionista, Médico.
+- **Descripción Breve:** Permite visualizar los turnos previos y futuros de un paciente.
+- **Flujo Principal de Eventos:**
+
+  - El usuario accede al sistema y busca un paciente.
+  - Selecciona la opción "Ver historial de turnos".
+  - El sistema muestra la lista de turnos (pasados y futuros) con detalles.
+
+- **Precondiciones:** El paciente debe estar registrado en el sistema.
+- **Postcondiciones:** El usuario visualiza el historial del paciente.
+
+
+
+
+
+
 
 
 
