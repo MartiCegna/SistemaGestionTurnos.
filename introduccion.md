@@ -58,6 +58,52 @@ La información de pacientes y médicos debe estar protegida y solo accesible pa
 El paciente debe estar registrado en el sistema y debe haber disponibilidad en el horario del médico.
 - **Postcondiciones:**
 El turno queda resitrado en la agenda y se notifican tanto el paciente como el médico.
+
+2. **Modificar un turno médico**
+- **Actor(es) Involucrado(s):** Recepcionista, Paciente.
+- **Descripción Breve:** Permite cambiar la fecha, hora o médico de un turno previamente agendado.
+- **Flujo Principal de Eventos:**
+  -El usuario accede al sistema y busca el turno a modificar.
+  -Selecciona la opción "Modificar turno".
+  -Cambia la fecha, hora o médico según disponibilidad.
+  -Guarda los cambios.
+  -El sistema actualiza el turno y notifica al paciente y al médico.
+
+- **Precondiciones:** 
+El turno debe estar registrado en el sistema y debe haber disponibilidad en la nueva fecha y hora.
+- **Postcondiciones:**
+El turno se actualiza con los nuevos datos y Se envían notificaciones con la actualización.
+
+3. **Cancelar un turno médico**
+- **Actor(es) Involucrado(s):** Recepcionista, Paciente, Médico
+- **Descripción Breve:** Permite eliminar un turno del sistema cuando un paciente o médico lo requiera.
+- **Flujo Principal de Eventos:**
+  -El usuario accede al sistema y busca el turno.
+  -Selecciona la opción "Cancelar turno".
+  -Confirma la cancelación.
+  -El sistema actualiza el estado del turno como "Cancelado".
+  -Se notifica al paciente y al médico.
+
+- **Precondiciones:** El turno debe estar registrado en el sistema.
+- **Postcondiciones:** El turno aparece como "Cancelado" en el historial y Se notifica al paciente y al médico.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
 
